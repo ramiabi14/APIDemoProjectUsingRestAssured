@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TC_VideoGamesAPI_Post">
+        <methods>
+          <include name="post_addanewgame"/>
+        </methods>
+      </class> <!-- testCases.TC_VideoGamesAPI_Post -->
+      <class name="testCases.TC_putrequesttoupdateexisting">
+        <methods>
+          <include name="putRequestToValidateExisting"/>
+        </methods>
+      </class> <!-- testCases.TC_putrequesttoupdateexisting -->
+      <class name="testCases.TC_VideoGameAPI_Get">
+        <methods>
+          <include name="test_GetAllVideoGames"/>
+        </methods>
+      </class> <!-- testCases.TC_VideoGameAPI_Get -->
+      <class name="testCases.TC_GetbasedonID">
+        <methods>
+          <include name="getbasedonid"/>
+        </methods>
+      </class> <!-- testCases.TC_GetbasedonID -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

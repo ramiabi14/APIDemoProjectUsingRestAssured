@@ -1,0 +1,6 @@
+testCases\TC_GetbasedonID.class
+testCases\TC_putrequesttoupdateexisting.class
+testCases\TC_VideoGameAPI_Get.class
+testCases\TC_VideoGamesAPI_Post.class
+RestAssuredAPIDemoProject1\RestAssuredAPIDemoProject1\AppTest.class
+testCases\TC_deletearecord.class
